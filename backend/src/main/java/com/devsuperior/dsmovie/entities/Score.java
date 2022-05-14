@@ -5,8 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tb_movie")
-
+@Table(name = "tb_score")
 public class Score {
 	
 	@EmbeddedId
